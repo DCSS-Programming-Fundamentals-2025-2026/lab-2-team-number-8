@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|c:\\users\\liker\\documents\\!kpi\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\core\\deliverycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|solutionrelative:lab-2-team-number-8\\core\\deliverycollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|c:\\users\\liker\\documents\\!kpi\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|solutionrelative:lab-2-team-number-8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|c:\\users\\liker\\documents\\!kpi\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|solutionrelative:lab-2-team-number-8\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|c:\\users\\liker\\documents\\!kpi\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\core\\deliveryenumerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|solutionrelative:lab-2-team-number-8\\core\\deliveryenumerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|c:\\users\\liker\\documents\\!kpi\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\deliverymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|solutionrelative:lab-2-team-number-8\\deliverymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|c:\\users\\liker\\documents\\!kpi\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\core\\comparers\\xcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|solutionrelative:lab-2-team-number-8\\core\\comparers\\xcomparer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|c:\\users\\liker\\documents\\!kpi\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9BF750-4807-4633-B60B-1EBE431DECF1}|lab-2-team-number-8\\lab-2-team-number-8.csproj|solutionrelative:lab-2-team-number-8\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delivery.cs",
+              "DocumentMoniker": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Delivery.cs",
+              "RelativeDocumentMoniker": "lab-2-team-number-8\\Delivery.cs",
+              "ToolTip": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Delivery.cs",
+              "RelativeToolTip": "lab-2-team-number-8\\Delivery.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T16:31:29.217Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeliveryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\DeliveryManager.cs",
+              "RelativeDocumentMoniker": "lab-2-team-number-8\\DeliveryManager.cs",
+              "ToolTip": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\DeliveryManager.cs",
+              "RelativeToolTip": "lab-2-team-number-8\\DeliveryManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T16:32:07.745Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeliveryCollection.cs",
+              "DocumentMoniker": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Core\\DeliveryCollection.cs",
+              "RelativeDocumentMoniker": "lab-2-team-number-8\\Core\\DeliveryCollection.cs",
+              "ToolTip": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Core\\DeliveryCollection.cs",
+              "RelativeToolTip": "lab-2-team-number-8\\Core\\DeliveryCollection.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T16:58:39.8Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeliveryEnumerator.cs",
+              "DocumentMoniker": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Core\\DeliveryEnumerator.cs",
+              "RelativeDocumentMoniker": "lab-2-team-number-8\\Core\\DeliveryEnumerator.cs",
+              "ToolTip": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Core\\DeliveryEnumerator.cs",
+              "RelativeToolTip": "lab-2-team-number-8\\Core\\DeliveryEnumerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T17:55:04.709Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "XComparer.cs",
+              "DocumentMoniker": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Core\\Comparers\\XComparer.cs",
+              "RelativeDocumentMoniker": "lab-2-team-number-8\\Core\\Comparers\\XComparer.cs",
+              "ToolTip": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Core\\Comparers\\XComparer.cs",
+              "RelativeToolTip": "lab-2-team-number-8\\Core\\Comparers\\XComparer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T18:45:01.115Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Status.cs",
+              "RelativeDocumentMoniker": "lab-2-team-number-8\\Status.cs",
+              "ToolTip": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Status.cs",
+              "RelativeToolTip": "lab-2-team-number-8\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T20:27:55.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 208,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Program.cs",
+              "RelativeDocumentMoniker": "lab-2-team-number-8\\Program.cs",
+              "ToolTip": "C:\\Users\\Liker\\Documents\\!KPI\\programming_fundamentals\\2-lab-2\\lab-2-team-number-8\\lab-2-team-number-8\\Program.cs",
+              "RelativeToolTip": "lab-2-team-number-8\\Program.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAqwMEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T16:35:26.208Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
