@@ -1,0 +1,15 @@
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\bin\Debug\net8.0\lab-2-team-number-8.exe
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\bin\Debug\net8.0\lab-2-team-number-8.deps.json
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\bin\Debug\net8.0\lab-2-team-number-8.runtimeconfig.json
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\bin\Debug\net8.0\lab-2-team-number-8.dll
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\bin\Debug\net8.0\lab-2-team-number-8.pdb
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\lab-2-team-number-8.GeneratedMSBuildEditorConfig.editorconfig
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\lab-2-team-number-8.AssemblyInfoInputs.cache
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\lab-2-team-number-8.AssemblyInfo.cs
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\lab-2-team-number-8.csproj.CoreCompileInputs.cache
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\lab-2-team-number-8.sourcelink.json
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\lab-2-team-number-8.dll
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\refint\lab-2-team-number-8.dll
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\lab-2-team-number-8.pdb
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\lab-2-team-number-8.genruntimeconfig.cache
+C:\KPI\OP\Lab\lab-2-team-number-8\lab-2-team-number-8\obj\Debug\net8.0\ref\lab-2-team-number-8.dll
