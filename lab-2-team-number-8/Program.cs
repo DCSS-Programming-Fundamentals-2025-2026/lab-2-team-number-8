@@ -5,6 +5,7 @@ namespace lab_2_team_number_8
     class Program
     {
         static DeliveryManager manager = new DeliveryManager();
+        static DeliveryCollection collection = new DeliveryCollection();
 
         static void Main()
         {
@@ -21,19 +22,40 @@ namespace lab_2_team_number_8
                 Console.Write("\nОберіть пункт: ");
                 string choice = Console.ReadLine();
 
-                switch (choice)
+                try
                 {
-                    case "1": AddDelivery(); break;
-                    case "2": EditDelivery(); break;
-                    case "3": ShowAll(); break;
-                    case "4": ShowPending(); break;
-                    case "5": MarkAsDone(); break;
-                    case "6": CancelDelivery(); break;
-                    case "7": SortByPriority(); break;
-                    case "8": ShowSummary(); break;
-                    case "9": ResetDay(); break;
-                    case "0": exit = true; break;
-                    default: Console.WriteLine("Помилка, спробуйте ще раз."); break;
+                    switch (choice)
+                    {
+                        case "1": AddDelivery(); break;
+                        case "2": EditDelivery(); break;
+                        case "3": ShowAll(); break;
+                        case "4": ShowPending(); break;
+                        case "5": MarkAsDone(); break;
+                        case "6": CancelDelivery(); break;
+                        case "7": SortByPriority(); break;
+                        case "8": ShowSummary(); break;
+                        case "9": ResetDay(); break;
+                        case "10": LoadIntoCollection(); break;
+                        case "11": AddToEnd(); break;
+                        case "12": AddOnPosition(); break;
+                        case "13": RemoveFromPosition(); break;
+                        case "14": ShowDeliveryFromPosition(); break;
+                        case "15": ShowCollectionDeliveryCount(); break;
+                        case "16": ShowAllDelieveresInCollection(); break;
+                        case "17": SortCollectionById(); ShowAllDelieveresInCollection(); break;
+                        case "18": SortCollectionByPriority(); ShowAllDelieveresInCollection(); break;
+                        case "19": ShowStats(); break;
+                        case "0": exit = true; break;
+                        default: Console.WriteLine("Помилка, спробуйте ще раз."); break;
+                    }
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine("Притримуйтесь формату ввода.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Виникла помилка");
                 }
             }
         }
@@ -51,6 +73,173 @@ namespace lab_2_team_number_8
             Console.WriteLine("8. Підсумок дня");
             Console.WriteLine("9. Скинути день");
             Console.WriteLine("0. Вихід");
+            Console.WriteLine("\n----------- ДОДАТКОВЕ МЕНЮ ДЛЯ РОБОТИ З КОЛЕКЦІЄЮ-----------");
+            Console.WriteLine("10. Завантажити в колекцію доставки з менеджеру доставок (колекції буде повністю оновлено)");
+            Console.WriteLine("11. Додати нову доставку в кінець");
+            Console.WriteLine("12. Додати нову доставку на конкретну позицію");
+            Console.WriteLine("13. Видалення доставки з конкретної позиції");
+            Console.WriteLine("14. Переглянути доставку з конкретної позиції");
+            Console.WriteLine("15. Переглянути кількість доставок");          
+            Console.WriteLine("16. Переглянути список всіх доставок");          
+            Console.WriteLine("17. Відсортувати доставки за ID");          
+            Console.WriteLine("18. Відсортувати доставки за пріоритетом");          
+            Console.WriteLine("19. Переглянути статистику доставок");          
+        }
+
+        static void ShowAllDelieveresInCollection()
+        {
+            var it = collection.GetEnumerator();
+            while (it.MoveNext())
+            {
+                if (it.Current == null)
+                {
+                    break;
+                }
+                Console.WriteLine(it.Current);
+            }
+        }
+
+        static void LoadIntoCollection()
+        {
+            Delivery[] temp = new Delivery[200];
+            int deliveryCount = manager.CopyAll(temp);
+            collection = new DeliveryCollection(temp, deliveryCount);
+        }
+
+        static void AddToEnd()
+        {
+            Console.Write("ID доставки: ");
+            int id = int.Parse(Console.ReadLine());
+            Console.Write("Назва замовлення: ");
+            string title = Console.ReadLine();
+            Console.Write("Адреса: ");
+            string address = Console.ReadLine();
+            Console.Write("Пріоритет (1=Low, 2=Medium, 3=High): ");
+            int priority = int.Parse(Console.ReadLine());
+            if (priority < 1 || priority > 3)
+            {
+                throw new FormatException();
+            }
+
+            Delivery newDelivery = new Delivery(id, title, address, (PriorityLevel)priority);
+
+            if (collection.Add(newDelivery))
+            {
+                Console.WriteLine($"Доставку #{id} додано.");
+            }                
+            else
+            {
+                Console.WriteLine("Не вдалося додати доставку.");
+            }
+        }
+
+        static void AddOnPosition()
+        {
+            Console.Write("ID доставки: ");
+            int id = int.Parse(Console.ReadLine());
+            Console.Write("Назва замовлення: ");
+            string title = Console.ReadLine();
+            Console.Write("Адреса: ");
+            string address = Console.ReadLine();
+            Console.Write("Пріоритет (1=Low, 2=Medium, 3=High): ");
+            int priority = int.Parse(Console.ReadLine());
+            if (priority < 1 || priority > 3)
+            {
+                throw new FormatException();
+            }
+            Console.Write("Позиція: ");
+            int index = int.Parse(Console.ReadLine());
+
+            Delivery newDelivery = new Delivery(id, title, address, (PriorityLevel)priority);
+
+            if (collection.SetAt(index, newDelivery))
+            {
+                Console.WriteLine($"Доставку #{id} додано.");
+            }
+            else
+            {
+                Console.WriteLine("Не вдалося додати доставку.");
+            }
+        }
+
+        static void RemoveFromPosition()
+        {
+            Console.Write("Позиція: ");
+            int index = int.Parse(Console.ReadLine());
+
+            if (collection.RemoveAt(index))
+            {
+                Console.WriteLine($"Доставку видалено.");
+            }
+            else
+            {
+                Console.WriteLine("Не вдалося знайти доставку.");
+            }
+        }
+
+        static void ShowDeliveryFromPosition()
+        {
+            Console.Write("Позиція: ");
+            int index = int.Parse(Console.ReadLine());
+
+            Delivery tempDelivery = collection.GetAt(index);
+
+            if (tempDelivery != null)
+            {
+                Console.WriteLine(tempDelivery);
+            }
+            else
+            {
+                Console.WriteLine("Не вдалося знайти доставку.");
+            }
+        }
+
+        static void ShowCollectionDeliveryCount()
+        {
+            Console.WriteLine($"Всього доставок: {collection.Count()}");
+        }
+
+        static void SortCollectionById()
+        {
+            Array.Sort(collection.Deliveries, 0, collection.DeliveryCount);
+        }
+
+        static void SortCollectionByPriority()
+        {
+            Array.Sort(collection.Deliveries, 0, collection.DeliveryCount, new XComparer());
+        }
+
+        static void ShowStats()
+        {
+            int pendingCount = 0;
+            int deliveredCount = 0;
+            int cancelledCount = 0;
+            
+            foreach(Delivery delivery in collection)
+            {
+                if (delivery == null)
+                {
+                    break;
+                }
+
+                if (delivery.Status == Status.Pending)
+                {
+                    pendingCount++;
+                }
+                else if (delivery.Status == Status.Delivered)
+                {
+                    deliveredCount++;
+                }
+                else
+                {
+                    cancelledCount++;
+                }
+            }
+
+            Console.WriteLine($"Очікується: {pendingCount}");
+            Console.WriteLine($"Доставлено: {deliveredCount}");
+            Console.WriteLine($"Скасовано: {cancelledCount}");
+            Console.WriteLine($"Всього доставок: {collection.DeliveryCount}");
         }
 
         static void AddDelivery()

@@ -320,7 +320,7 @@
       "lab-2-team-number-8/1.0.0": {
         "runtime": {
           "lab-2-team-number-8.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

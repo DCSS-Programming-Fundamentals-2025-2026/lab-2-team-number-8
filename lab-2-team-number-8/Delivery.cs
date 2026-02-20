@@ -1,6 +1,6 @@
 namespace lab_2_team_number_8
 {
-    public class Delivery : TaskBase, IRoutable
+    public class Delivery : TaskBase, IRoutable, IComparable
     {
         public string Address { get; set; }
         public PriorityLevel Priority { get; set; }
@@ -26,5 +26,15 @@ namespace lab_2_team_number_8
         public void UpdateStatus(Status s) => Status = s;
 
         public override string ToString() => $"[{Id}] {Title} ({Address}) - {Status} [{Priority}]";
+
+        public int CompareTo(object? obj)
+        {
+            if (obj is not Delivery other)
+            {
+                throw new ArgumentException("При порівнянні виникла проблема з типом даних елемента");
+            }
+
+            return Id.CompareTo(other.Id);
+        }
     }
 }
